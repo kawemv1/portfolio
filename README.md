@@ -32,32 +32,6 @@ It showcases my projects in AI/ML, automation, and full‑stack development, alo
 
 ---
 
-## Run Locally
-
-**Prerequisites:** Node.js (LTS recommended)
-
-```bash
-# install dependencies
-npm install
-
-# start dev server
-npm run dev
-```
-
-Then open `http://localhost:3000` in your browser.
-
----
-
-## Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
-The static assets in `dist` can be deployed to any static hosting (Vercel, Netlify, Cloudflare Pages, etc.).
-
----
 
 ## Contact
 
