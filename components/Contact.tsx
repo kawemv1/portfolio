@@ -64,12 +64,12 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="text-xs text-blue-200 uppercase tracking-wider">WhatsApp</p>
                   <a
-                    href="https://wa.me/77057727204"
+                    href="https://wa.me/77719750625"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium hover:text-blue-200 transition-colors"
                   >
-                    +7 705 772 7204
+                    +7 771 975 0625
                   </a>
                 </div>
               </div>

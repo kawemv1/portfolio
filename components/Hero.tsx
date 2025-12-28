@@ -55,12 +55,12 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="flex justify-center md:justify-end relative">
-          <div className="relative w-72 h-72 md:w-96 md:h-96 translate-y-6 md:translate-y-10">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 blur-2xl opacity-20 animate-pulse"></div>
+          <div className="relative w-72 h-72 md:w-96 md:h-96 -translate-y-6 md:-translate-y-8 overflow-hidden rounded-full border-4 border-slate-800">
+            <div className="absolute top-[-50px] left-0 right-0 bottom-0 rounded-full bg-gradient-to-tr from-blue-600 to-indigo-600 blur-2xl opacity-20 animate-pulse"></div>
             <img 
               src={myPhoto} 
               alt="Kairzhan Ansar" 
-              className="rounded-full w-full h-full object-cover border-4 border-slate-800 relative z-10 shadow-2xl"
+              className="rounded-full w-full h-full object-cover object-center relative z-10 shadow-2xl scale-150 -translate-y-[100px]"
             />
             {/* Floating badges */}
             <div className="absolute -top-4 -right-4 bg-dark-card border border-slate-700 p-3 rounded-xl shadow-xl z-20 animate-bounce delay-700">

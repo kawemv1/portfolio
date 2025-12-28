@@ -85,12 +85,12 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
-    title: "InvestInKids - Educational Platform",
+    title: "InvestInKids - Educational Center",
     tech: ["React", "TypeScript", "FastAPI", "Supabase", "Aiogram"],
-    description: "Full-stack educational website with integrated feedback system and Telegram bot for parent-teacher communication.",
-    link: "http://34.116.240.105:3333",
+    description: "An educational center website with a booking system and an AI chat assistant.",
+    link: "https://www.investinkids.kz/",
     github: "https://github.com/kawemv1/iik-site",
-    highlights: ["Multi-language support", "Booking system", "AI chat assistant (n8n + Gemini)"]
+    highlights: ["Multi-language support", "Booking system", "AI chat assistant (n8n + Gemini)", "Admin panel"]
   },
   { 
     id: 3,
@@ -105,7 +105,7 @@ export const PROJECTS: Project[] = [
     title: "WhatsApp AI Business Automation",
     tech: ["Python", "Evolution API", "LangGraph", "n8n"],
     description: "AI-powered WhatsApp bot for business process automation with intelligent conversation flows.",
-    status: "In Development",
+    github: "https://github.com/NovaRenard/invest-in-kids-agent",
     highlights: ["Multi-language support", "Context-aware responses", "Workflow automation"]
   },
   {
@@ -120,7 +120,7 @@ export const PROJECTS: Project[] = [
     title: "GeoLearn - Geography Platform",
     tech: ["HTML", "CSS", "JavaScript"],
     description: "Interactive geography learning platform for students.",
-    link: "#",
+    link: "https://geolearn.kairzhanansar.site",
     github: "https://github.com/kawemv1/geolearn",
     highlights: ["Interactive maps", "Quiz system", "Responsive UI"]
   },
